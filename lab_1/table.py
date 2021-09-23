@@ -1,4 +1,4 @@
-from main import generation,gauss,inaccuracy, gen
+from lab_1.main import generation,gauss,inaccuracy, gen
 
 with open("Results_of_gauss.txt", "w", encoding="utf-8") as file1:
     print("Порядок матрицы          Относительная погрешность", file=file1)
